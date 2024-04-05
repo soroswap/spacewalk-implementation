@@ -1,0 +1,25 @@
+{
+  "name": "offramp-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "from-pendulum": "node src/fromPendulum.js",
+    "to-pendulum": "node src/toPendulum.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^10.12.4",
+    "big.js": "^6.2.1",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0",
+    "prompts": "^2.4.2",
+    "stellar-base": "^11.0.1",
+    "stellar-sdk": "^11.3.0"
+  }
+}
